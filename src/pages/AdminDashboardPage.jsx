@@ -54,7 +54,7 @@ export default function AdminDashboardPage() {
 
   const handleLogout = () => {
     clearAdminSession();
-    navigate('/admin');
+    navigate('/');
   };
 
   const usersTable = useMemo(() => {
